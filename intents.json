@@ -1,0 +1,320 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "\u00bfC\u00f3mo est\u00e1s?",
+                "Buenos d\u00edas",
+                "\u00a1Hola!",
+                "\u00a1Qu\u00e9 tal!"
+            ],
+            "responses": [
+                "\u00a1Hola! \u00bfEn qu\u00e9 puedo ayudarte hoy?",
+                "\u00a1Hola! \u00bfC\u00f3mo puedo asistirte con tu consulta sobre medicamentos?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adi\u00f3s",
+                "Hasta luego",
+                "Nos vemos",
+                "Hasta pronto",
+                "Hasta luego, gracias"
+            ],
+            "responses": [
+                "\u00a1Hasta luego! Que tengas un excelente d\u00eda.",
+                "\u00a1Adi\u00f3s! Si necesitas m\u00e1s informaci\u00f3n, aqu\u00ed estar\u00e9."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_paracetamol",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Paracetamol?",
+                "\u00bfPara qu\u00e9 sirve el Paracetamol?",
+                "Cu\u00e9ntame sobre Paracetamol",
+                "\u00bfQu\u00e9 hace el Paracetamol?"
+            ],
+            "responses": [
+                "El Paracetamol es un analg\u00e9sico y antipir\u00e9tico com\u00fanmente usado para aliviar el dolor leve a moderado y reducir la fiebre. Es efectivo para dolores de cabeza, musculares y de muelas.",
+                "Paracetamol es utilizado para aliviar dolores leves y reducir la fiebre. No se recomienda exceder la dosis diaria de 4 gramos, ya que puede causar da\u00f1o hep\u00e1tico."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_mejoral",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Mejoral?",
+                "\u00bfPara qu\u00e9 sirve el Mejoral?",
+                "Cu\u00e9ntame sobre Mejoral",
+                "\u00bfQu\u00e9 hace el Mejoral?"
+            ],
+            "responses": [
+                "Mejoral es un medicamento que combina aspirina y paracetamol, utilizado principalmente para aliviar dolores como dolores de cabeza, musculares o articulares. Tambi\u00e9n ayuda a reducir la fiebre.",
+                "Mejoral es eficaz para aliviar dolores leves y moderados, adem\u00e1s de reducir la fiebre. Es una opci\u00f3n com\u00fan para aliviar dolores como los de cabeza y musculares."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_alkaseltzer",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Alka-Seltzer?",
+                "\u00bfPara qu\u00e9 sirve Alka-Seltzer?",
+                "Cu\u00e9ntame sobre Alka-Seltzer",
+                "\u00bfQu\u00e9 hace el Alka-Seltzer?"
+            ],
+            "responses": [
+                "Alka-Seltzer es un medicamento efervescente utilizado para aliviar la acidez estomacal, indigesti\u00f3n y malestar estomacal. Tambi\u00e9n es eficaz para reducir el dolor causado por estas molestias.",
+                "Alka-Seltzer se utiliza com\u00fanmente para aliviar problemas digestivos, como la acidez estomacal o la indigesti\u00f3n, proporcionando alivio r\u00e1pido."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_tabcin",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Tabcin?",
+                "\u00bfPara qu\u00e9 sirve el Tabcin?",
+                "Cu\u00e9ntame sobre Tabcin",
+                "\u00bfQu\u00e9 hace el Tabcin?"
+            ],
+            "responses": [
+                "Tabcin es un medicamento utilizado para aliviar los s\u00edntomas del resfriado, como la congesti\u00f3n nasal, la tos y el malestar general. Contiene un antihistam\u00ednico y descongestionante.",
+                "Tabcin es eficaz para tratar los resfriados comunes, ayudando a reducir la congesti\u00f3n nasal y otros s\u00edntomas molestos relacionados con resfriados."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_vickvaporub",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Vick VapoRub?",
+                "\u00bfPara qu\u00e9 sirve el Vick VapoRub?",
+                "Cu\u00e9ntame sobre Vick VapoRub",
+                "\u00bfQu\u00e9 hace el Vick VapoRub?"
+            ],
+            "responses": [
+                "Vick VapoRub es una pomada t\u00f3pica utilizada para aliviar la congesti\u00f3n nasal, la tos y los dolores musculares. Contiene mentol, alcanfor y aceite de eucalipto.",
+                "Vick VapoRub es muy \u00fatil para aliviar la congesti\u00f3n respiratoria y los dolores musculares. Se aplica directamente sobre el pecho o la garganta."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_intestinomicina",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Intestinomicina?",
+                "\u00bfPara qu\u00e9 sirve la Intestinomicina?",
+                "Cu\u00e9ntame sobre Intestinomicina",
+                "\u00bfQu\u00e9 hace la Intestinomicina?"
+            ],
+            "responses": [
+                "Intestinomicina es un medicamento utilizado para tratar infecciones intestinales, como la diarrea infecciosa o bacteriana. Act\u00faa eliminando bacterias da\u00f1inas en el intestino.",
+                "Intestinomicina es eficaz para el tratamiento de infecciones intestinales y problemas digestivos causados por bacterias, ayudando a restaurar el equilibrio intestinal."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_panadol",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Panadol?",
+                "\u00bfPara qu\u00e9 sirve el Panadol?",
+                "Cu\u00e9ntame sobre Panadol",
+                "\u00bfQu\u00e9 hace el Panadol?"
+            ],
+            "responses": [
+                "Panadol es un analg\u00e9sico utilizado para aliviar dolores leves a moderados, como dolores de cabeza, dolor muscular, dolor de muelas, o fiebre.",
+                "Panadol es eficaz para el alivio r\u00e1pido de dolores comunes y fiebre, al igual que el paracetamol, pero es una de las marcas m\u00e1s reconocidas."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_salandrews",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Sal Andrews?",
+                "\u00bfPara qu\u00e9 sirve la Sal Andrews?",
+                "Cu\u00e9ntame sobre Sal Andrews",
+                "\u00bfQu\u00e9 hace la Sal Andrews?"
+            ],
+            "responses": [
+                "Sal Andrews es un medicamento efervescente utilizado para tratar la acidez estomacal y la indigesti\u00f3n, aliviando la sensaci\u00f3n de ardor en el est\u00f3mago.",
+                "La Sal Andrews ayuda a neutralizar el \u00e1cido estomacal, proporcionando alivio r\u00e1pido para las molestias causadas por la acidez o la indigesti\u00f3n."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_pildorin",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Pildor\u00edn?",
+                "\u00bfPara qu\u00e9 sirve el Pildor\u00edn?",
+                "Cu\u00e9ntame sobre Pildor\u00edn",
+                "\u00bfQu\u00e9 hace el Pildor\u00edn?"
+            ],
+            "responses": [
+                "Pildor\u00edn es un anticonceptivo oral utilizado para prevenir embarazos no deseados. Contiene hormonas que controlan el ciclo menstrual y previenen la ovulaci\u00f3n.",
+                "Pildor\u00edn es una opci\u00f3n de pastillas anticonceptivas que ayuda a regular el ciclo menstrual y evita la fertilizaci\u00f3n."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_cafiaspirina",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Cafiaspirina?",
+                "\u00bfPara qu\u00e9 sirve la Cafiaspirina?",
+                "Cu\u00e9ntame sobre Cafiaspirina",
+                "\u00bfQu\u00e9 hace la Cafiaspirina?"
+            ],
+            "responses": [
+                "Cafiaspirina es un medicamento combinado de cafe\u00edna y aspirina, utilizado para aliviar dolores de cabeza, migra\u00f1as y dolores musculares.",
+                "Cafiaspirina act\u00faa combatiendo el dolor de cabeza y mejorando la circulaci\u00f3n sangu\u00ednea, gracias a la acci\u00f3n conjunta de la cafe\u00edna y la aspirina."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_atamel",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Atamel?",
+                "\u00bfPara qu\u00e9 sirve el Atamel?",
+                "Cu\u00e9ntame sobre Atamel",
+                "\u00bfQu\u00e9 hace el Atamel?"
+            ],
+            "responses": [
+                "Atamel es un medicamento que contiene paracetamol, utilizado para aliviar dolores de cabeza, fiebre y dolores musculares.",
+                "Atamel es similar al Paracetamol, con propiedades analg\u00e9sicas y antipir\u00e9ticas, efectivo para reducir dolores y fiebre."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_dramamine",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Dramamine?",
+                "\u00bfPara qu\u00e9 sirve el Dramamine?",
+                "Cu\u00e9ntame sobre Dramamine",
+                "\u00bfQu\u00e9 hace el Dramamine?"
+            ],
+            "responses": [
+                "Dramamine, tambi\u00e9n conocido como 'El Drama', es un medicamento utilizado para prevenir y tratar los mareos, n\u00e1useas y v\u00f3mitos causados por el movimiento, como en los viajes en autom\u00f3vil, barco o avi\u00f3n.",
+                "Dramamine es un antihistam\u00ednico utilizado para combatir los s\u00edntomas del mareo y las n\u00e1useas, especialmente en viajes largos o en situaciones de mareo por movimiento."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_bicarbonato",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Bicarbonato?",
+                "\u00bfPara qu\u00e9 sirve el Bicarbonato?",
+                "Cu\u00e9ntame sobre Bicarbonato",
+                "\u00bfQu\u00e9 hace el Bicarbonato?"
+            ],
+            "responses": [
+                "El Bicarbonato, conocido tambi\u00e9n como 'El Bicarbo', es un medicamento utilizado para aliviar la acidez estomacal y la indigesti\u00f3n. Neutraliza el exceso de \u00e1cido en el est\u00f3mago.",
+                "El Bicarbonato se usa com\u00fanmente para reducir la acidez estomacal y aliviar los s\u00edntomas de la indigesti\u00f3n. Tambi\u00e9n puede ser \u00fatil en algunos problemas de acidez g\u00e1strica."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_dolex",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Dolex?",
+                "\u00bfPara qu\u00e9 sirve el Dolex?",
+                "Cu\u00e9ntame sobre Dolex",
+                "\u00bfQu\u00e9 hace el Dolex?"
+            ],
+            "responses": [
+                "Dolex es un analg\u00e9sico utilizado para aliviar dolores de cabeza, dolores musculares y dolores leves a moderados. Contiene paracetamol como principio activo.",
+                "Dolex es com\u00fanmente usado para tratar dolores de cabeza, musculares y otros dolores menores, ofreciendo alivio r\u00e1pido y efectivo."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_lemisol",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Lemisol?",
+                "\u00bfPara qu\u00e9 sirve Lemisol?",
+                "Cu\u00e9ntame sobre Lemisol",
+                "\u00bfQu\u00e9 hace Lemisol?"
+            ],
+            "responses": [
+                "Lemisol, o 'El Lemi', es un medicamento utilizado como antis\u00e9ptico para tratar heridas y quemaduras leves. Se aplica t\u00f3picamente para prevenir infecciones en la piel.",
+                "Lemisol es un antis\u00e9ptico eficaz para limpiar y desinfectar heridas, cortaduras y quemaduras menores, ayudando a prevenir infecciones."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_tachipirin",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Tachipir\u00edn?",
+                "\u00bfPara qu\u00e9 sirve el Tachipir\u00edn?",
+                "Cu\u00e9ntame sobre Tachipir\u00edn",
+                "\u00bfQu\u00e9 hace el Tachipir\u00edn?"
+            ],
+            "responses": [
+                "Tachipir\u00edn es un medicamento utilizado para tratar la fiebre en ni\u00f1os. Contiene paracetamol, lo que ayuda a reducir la fiebre y aliviar dolores leves a moderados.",
+                "Tachipir\u00edn es un medicamento especialmente formulado para ni\u00f1os, utilizado para bajar la fiebre y aliviar dolores causados por resfriados o infecciones comunes."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_alkad",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Alka-D?",
+                "\u00bfPara qu\u00e9 sirve el Alka-D?",
+                "Cu\u00e9ntame sobre Alka-D",
+                "\u00bfQu\u00e9 hace el Alka-D?"
+            ],
+            "responses": [
+                "Alka-D es un medicamento utilizado para aliviar la acidez estomacal y el malestar causado por la indigesti\u00f3n. Act\u00faa neutralizando el exceso de \u00e1cido en el est\u00f3mago.",
+                "Alka-D se usa para tratar problemas digestivos como la acidez y el malestar estomacal, proporcionando alivio r\u00e1pido y efectivo."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_enteroguanil",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Enteroguanil?",
+                "\u00bfPara qu\u00e9 sirve Enteroguanil?",
+                "Cu\u00e9ntame sobre Enteroguanil",
+                "\u00bfQu\u00e9 hace Enteroguanil?"
+            ],
+            "responses": [
+                "Enteroguanil, o 'La Guanil', es un medicamento utilizado para tratar la diarrea. Ayuda a reducir la frecuencia y la intensidad de las evacuaciones intestinales.",
+                "Enteroguanil es eficaz en el tratamiento de la diarrea aguda, especialmente en casos causados por infecciones intestinales, restaurando el equilibrio digestivo."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_dolofin",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Dolofin?",
+                "\u00bfPara qu\u00e9 sirve Dolofin?",
+                "Cu\u00e9ntame sobre Dolofin",
+                "\u00bfQu\u00e9 hace Dolofin?"
+            ],
+            "responses": [
+                "Dolofin, o 'El Dolo', es un medicamento utilizado para aliviar dolores leves a moderados, como dolores musculares y de cabeza. Contiene paracetamol como principio activo.",
+                "Dolofin es utilizado para aliviar dolores como los de cabeza, musculares y otras molestias menores, proporcionando un alivio r\u00e1pido y efectivo."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_neosaldina",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Neosaldina?",
+                "\u00bfPara qu\u00e9 sirve Neosaldina?",
+                "Cu\u00e9ntame sobre Neosaldina",
+                "\u00bfQu\u00e9 hace Neosaldina?"
+            ],
+            "responses": [
+                "Neosaldina, o 'La Neo', es un medicamento utilizado para tratar migra\u00f1as y dolores de cabeza intensos. Contiene principios activos que ayudan a aliviar el dolor y reducir la inflamaci\u00f3n.",
+                "Neosaldina es muy eficaz para aliviar las migra\u00f1as y dolores de cabeza severos, proporcionando un alivio r\u00e1pido y eficaz."
+            ]
+        },
+        {
+            "tag": "informacion_medicamento_amoxil",
+            "patterns": [
+                "\u00bfQu\u00e9 es el medicamento Amoxil?",
+                "\u00bfPara qu\u00e9 sirve Amoxil?",
+                "Cu\u00e9ntame sobre Amoxil",
+                "\u00bfQu\u00e9 hace Amoxil?"
+            ],
+            "responses": [
+                "Amoxil, o 'La Amoxilina', es un antibi\u00f3tico utilizado para tratar infecciones bacterianas, como infecciones respiratorias, del tracto urinario y otras infecciones comunes.",
+                "Amoxil es un medicamento antibi\u00f3tico que combate infecciones bacterianas al interferir con la producci\u00f3n de las paredes celulares de las bacterias, ayudando a eliminarlas."
+            ]
+        },
+        {
+            "tag": "norespuesta",
+            "patterns": [
+                "",
+                "no entiendo",
+                "no s\u00e9 qu\u00e9 decir",
+                "no tengo una respuesta",
+                "no entiendo la pregunta"
+            ],
+            "responses": [
+                "Lo siento, no pude entender tu pregunta. \u00bfPodr\u00edas reformularla?",
+                "No estoy seguro de c\u00f3mo responder eso. \u00bfPodr\u00edas ser m\u00e1s espec\u00edfico?",
+                "No reconozco esa solicitud. Si necesitas informaci\u00f3n sobre medicamentos, por favor, preg\u00fantame de nuevo."
+            ]
+        }
+    ]
+}
